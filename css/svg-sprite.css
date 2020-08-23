@@ -1,0 +1,16 @@
+.hero {
+  padding: 0;
+  margin: 0;
+  outline: 1px solid tomato;
+}
+
+.hero {
+  padding: 0;
+  margin: 0;
+  outline: 1px solid tomato;
+
+  width: 1600px;
+  height: 600px;
+  background-image: url(../images/svg/Шапка.svg);
+  background-size: contain;
+}
