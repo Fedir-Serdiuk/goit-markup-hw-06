@@ -249,7 +249,7 @@
     </main>
 
     <!--Footer-->
-    <footer class="footer">
+    <footer class="footer-page">
       <div class="container footer-flexbox">
         <!--adress section-->
 
@@ -323,13 +323,17 @@
             </li>
           </ul>
         </div>
-        <!-- <div>
-          <div class="slogan footer-flexbox">
-            Подпишитесь на рассылку
-          </div>
-          <input type="text" />
-          <button type="button" class="button">Подписаться</button>
-        </div> -->
+        <div class="footer-content">
+          <label for="subscription" class="footer-label">Подпишись на рассылку</label>
+          <input type="email" id="subscription" class="input-post" placeholder="E-mail"
+            aria-label="Введите свой E-mail адресс" />
+          <button class="button">
+            Подписаться
+            <svg class="button-icon" height="24" width="24">
+              <use href="./images/svg/sprite3.svg#icon-send"></use>
+            </svg>
+          </button>
+        </div>        
       </div>
     </footer>
   </body>
