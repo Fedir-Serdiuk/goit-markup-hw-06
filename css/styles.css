@@ -787,6 +787,10 @@ header {
   vertical-align: middle;
   margin-left: 10px;
 }
+.sign-up-form-section {
+  display: flex;
+  align-items: center;
+}
 
 /* MODAL WINDOW */
 
